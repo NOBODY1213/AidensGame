@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Aiden's Game</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <script src="scripts/main.js" charset="utf-8"></script>
+    <script src="scripts/name.js" charset="utf-8"></script>
+  </head>
+  <body onload="load()">
+
+    <table id="game" align="center">
+
+      <tbody class="stats">
+        <tr>
+          <td>
+            <p>Money: <span id="money"></span></p>
+          </td>
+          <td>
+            <p>Plot Count: <span id="plots"></span></p>
+          </td>
+          <td>
+            <p>Building Cost: <span id="buildingCost"></span></p>
+          </td>
+        </tr>
+      </tbody>
+
+      <tbody class="spacer"><tr><td colspan="3" class="spacer" id="text">&nbsp;</td></tr></tbody>
+
+      <tr>
+        <td class="plot">
+          <button onclick="buyPlot(0)">Buy Plot</button>
+        </td>
+        <td class="plot">
+          <button onclick="buyPlot(1)">Buy Plot</button>
+        </td>
+        <td class="plot">
+          <button onclick="buyPlot(2)">Buy Plot</button>
+        </td>
+      </tr>
+    </table>
+    <div align="center">
+      <button onclick="buyRow()">Buy New Row<br/>Price: <span id="rowPrice"></span></button>
+    </div>
+
+    <footer align="center"><br/>&copy;Aiden Sheeran<br/></footer>
+  </body>
+</html>
