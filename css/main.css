@@ -1,0 +1,34 @@
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+}
+a:hover {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.plot {
+  background-color: rgb(167, 167, 167);
+  height: 250px;
+  text-align: center;
+  width: 250px;
+}
+
+.active {
+  background-color: rgb(125, 255, 100);
+  height: 250px;
+  text-align: center;
+  width: 250px;
+}
+.spacer {
+  height: 40px;
+}
+.stats {
+  height: 10px;
+  position: fixed;
+  text-align: center;
+}
+
+.error {
+  background-color: rgb(255, 0, 0);
+}
